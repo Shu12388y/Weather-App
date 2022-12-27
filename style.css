@@ -1,0 +1,161 @@
+html,body{
+    margin: 0%;
+    padding: 0;
+    overflow-x: hidden !important;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-image: linear-gradient(lightcyan,lightblue,lightcyan);
+}
+.header,nav{
+    margin: 0%;
+    padding: 0%;
+}
+li{
+    margin: 0%;
+    padding: 0%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+ul{
+    font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 0%;
+
+}
+.section_01{
+    margin: 0%;
+    padding: 0%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.form{
+    margin-top: 2rem;
+}
+.input_text{
+    margin: 0 1em 0 0;
+    height: 2rem;
+    width:25em;
+    box-sizing: border-box;
+    border: 2px solid lightskyblue;
+    border-radius: 10%;
+}
+.submit_button{
+   
+    padding: 0.2rem;
+    width: 7rem;
+    height: 2rem;
+    font-size: inherit;
+    box-sizing: border-box;
+    border-radius: 1rem;
+    border: none;
+    background-color: rgb(43, 179, 179);
+    font-size: 20px;
+    transition: linear 0.5s;
+}
+
+
+.submit_button:hover{
+    cursor: pointer;
+    border-radius: 0%;
+    background-color: lightgreen;
+    
+
+}
+
+.images{
+    background-image: url(https://mir-s3-cdn-cf.behance.net/project_modules/max_632/b5381e31935145.566750f9d3482.gif);
+    background-clip: border-box;
+    background-size: contain;
+    background-position: center;
+    padding: 11rem;
+    /* width: 72rem; */
+    background-repeat: no-repeat;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+
+}
+.container01,.container02,.container03{
+    background-image:linear-gradient(white,lightblue);
+    border: 3px solid lightcyan;
+    padding: 5rem;
+    box-sizing: border-box;
+    margin: 10px,15px;
+    box-shadow: 0 0 5px 5px lightcyan;
+}
+
+.cloud_pct,.feel_like,.min_temp,.max_temp,.wind_degree,.sunrise,.sunset{
+    font-size: 18px;
+}
+h1{
+    text-align: center;
+}
+#cityName{
+text-transform: uppercase;
+}
+.container-data{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 10rem;
+}
+
+#temp , #humidity, #wind_speed {
+    display: block;
+    text-align: center;
+
+}
+footer{
+    margin-top: 5rem;
+    width: 100%;
+    height: 100%;
+    padding: 2rem;
+    background-color: lightcyan;
+}
+.mark{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+footer .mark a{
+
+    list-style: none;
+    text-decoration: none;
+    color: black;
+}
+@media(max-width:600px){
+    .input_text {
+        margin: 0 1em 0 0;
+       height: 1.9rem;
+        width: 14em;
+    }
+    .container-data{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        flex-direction: column;
+        gap: 2rem;
+    }
+    .section_02{
+        padding: 0%;
+        margin: 10% 0 0 0;
+        width: 100%;
+        
+    }
+    .images{
+        background-size: cover;
+   padding: 10rem;
+   margin: 10px;
+   height: 100%;
+    }
+
+    .container01,.container02,.container03{
+        background-image:linear-gradient(white,lightblue);
+        border: 3px solid lightcyan;
+        padding: 4rem;
+        box-sizing: border-box;
+    }
+}
